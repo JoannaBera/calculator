@@ -1,0 +1,17 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price p {
+  margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .price {
+    flex-direction: row;
+    gap: 0 8px;
+    align-items: center;
+  }
+}

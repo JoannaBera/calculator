@@ -1,0 +1,19 @@
+.ui__select {
+  width: 250px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 16px;
+  border: 1px solid #e7ebee;
+  border-radius: 6px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  color: #848a8d;
+  transition: border-color 0.5s ease;
+}
+
+.ui__select:hover {
+  border-color: #00d4ff;
+  cursor: pointer;
+}
